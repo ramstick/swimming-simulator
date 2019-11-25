@@ -12,7 +12,7 @@ const scale = 0.125;
 const noise_map_scale = 0.25;
 
 var mesh;
-var simpnoise = new SimplexNoise(3);
+var simpnoise = new SimplexNoise();
 /**
  * Changable function to radomly generate a number at a point
  * 
